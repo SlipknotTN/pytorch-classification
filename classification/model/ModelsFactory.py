@@ -20,7 +20,6 @@ class ModelsFactory(object):
 
         elif config.architecture == "simplenet_bw":
 
-            # Transfer learning
             return SimpleNetBW(config.input_size, num_classes)
 
         else:
